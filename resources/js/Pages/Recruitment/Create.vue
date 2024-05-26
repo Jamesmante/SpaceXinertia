@@ -107,6 +107,6 @@ const deleteApplication = (index) => {
 };
 
 const returnToDashboard = () => {
-  Inertia.visit(route('dashboard')); // Corrected navigation using Inertia.js
+  Inertia.visit(route('/dashboard')); // Corrected navigation using Inertia.js
 };
 </script>
